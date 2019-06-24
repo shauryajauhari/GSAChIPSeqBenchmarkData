@@ -1,0 +1,15 @@
+Package: GSAChIPSeqGold
+Type: Package
+Title: The GSAChIPSeqGold package is a repertoire of benchmark data to be fed in the comparitive analysis of genomic ranges GSA tools
+Version: 0.1.1
+Author: Shaurya Jauhari
+Date: "`r paste(Sys.Date())`"
+Description: This is a collection of "`r print(length(ChIPSeqSamples))`" ChIP-Seq data sets for which the phenotype is a disease (cancer) with a corresponding pathway in the enrichment databases.This collection of datasets was used as gold standard for comparing gene set analysis methods, viz. GREAT, Enrichr,Chip-Enrich, Broad-Enrich, Seq2Pathway.
+Depends: R (>= 2.10)
+Maintainer: Shaurya Jauhari <shauryajauhari@gzhmu.edu.cn>
+License: GPL2
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: "`r paste(Sys.time())`"; postdoc1
+RoxygenNote: 6.1.1
